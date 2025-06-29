@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react"
 import { motion, useInView } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Github, Linkedin, Mail, ArrowRight, ChevronDown, Zap } from "lucide-react"
+import { Github, Linkedin, Mail, ArrowRight, ChevronDown, Code } from "lucide-react"
 import dynamic from "next/dynamic"
 
 // Dynamically import the 3D scene with no SSR
@@ -71,33 +71,44 @@ export function HeroSection() {
             transition={{ duration: 1, delay: 0.2 }}
             className="mb-6"
           >
-            <Badge className="bg-blue-500/20 text-blue-400 border-blue-500/30 mb-4">
-              <Zap className="w-3 h-3 mr-1" />
-              Available for Projects
+            <Badge className="bg-blue-500/20 text-blue-400 border-blue-500/30 mb-4 px-4 py-2 text-sm font-medium">
+              <Code className="w-4 h-4 mr-2" />
+              Frontend Developer
             </Badge>
           </motion.div>
 
           <motion.h1
-            className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
-            initial={{ opacity: 0, y: 30 }}
+            className="text-6xl md:text-8xl font-bold mb-4 leading-tight"
+            initial={{ opacity: 0, y: 40 }}
             animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ duration: 1.2, delay: 0.5, ease: "easeOut" }}
           >
-            <span className="text-white">Building the</span>
-            <br />
-            <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent">
-              Future of Tech
-            </span>
+            <motion.span
+              className="block text-white"
+              initial={{ opacity: 0, x: -30 }}
+              animate={isHeroInView ? { opacity: 1, x: 0 } : {}}
+              transition={{ duration: 1, delay: 0.7 }}
+            >
+              Crafting
+            </motion.span>
+            <motion.span
+              className="block bg-gradient-to-r from-blue-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent"
+              initial={{ opacity: 0, x: 30 }}
+              animate={isHeroInView ? { opacity: 1, x: 0 } : {}}
+              transition={{ duration: 1, delay: 0.9 }}
+            >
+              Digital Experiences
+            </motion.span>
           </motion.h1>
 
           <motion.p
-            className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed font-light"
             initial={{ opacity: 0, y: 30 }}
             animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.6 }}
+            transition={{ duration: 1, delay: 1.1, ease: "easeOut" }}
           >
-            Full-stack developer specializing in cutting-edge web applications, mobile solutions, and immersive 3D
-            experiences.
+            Frontend developer passionate about creating beautiful, responsive, and user-friendly web interfaces using
+            modern technologies like React, Next.js, and TypeScript.
           </motion.p>
 
           <motion.div

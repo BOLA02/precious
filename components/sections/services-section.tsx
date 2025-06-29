@@ -1,38 +1,38 @@
 "use client"
-import { Code2, Database, Smartphone, Globe, Cpu, Zap, Terminal } from "lucide-react"
+import { Code2, Smartphone, Globe, Zap, Palette, Monitor } from "lucide-react"
 import { SectionHeader } from "../ui/section-header"
 import { TechStackCard } from "../ui/tech-stack-card"
 import { ServiceCard } from "../ui/service-card"
 
 const techStack = [
-  { name: "React/Next.js", icon: Code2, level: 95, description: "Modern web applications" },
-  { name: "TypeScript", icon: Terminal, level: 90, description: "Type-safe development" },
-  { name: "Node.js", icon: Database, level: 85, description: "Backend & APIs" },
-  { name: "Flutter", icon: Smartphone, level: 80, description: "Cross-platform mobile" },
-  { name: "Three.js", icon: Cpu, level: 75, description: "3D web experiences" },
-  { name: "Cloud/DevOps", icon: Globe, level: 85, description: "Scalable deployment" },
+  { name: "React", icon: Code2, level: 90, description: "Component-based UI development" },
+  { name: "Next.js", icon: Globe, level: 85, description: "Full-stack React framework" },
+  { name: "TypeScript", icon: Code2, level: 80, description: "Type-safe JavaScript" },
+  { name: "Tailwind CSS", icon: Palette, level: 95, description: "Utility-first CSS framework" },
+  { name: "JavaScript", icon: Code2, level: 88, description: "Modern ES6+ development" },
+  { name: "Responsive Design", icon: Monitor, level: 92, description: "Mobile-first approach" },
 ]
 
 const services = [
   {
+    icon: Globe,
+    title: "Website Development",
+    description: "Custom websites built with modern frameworks, optimized for performance and user experience.",
+  },
+  {
     icon: Code2,
-    title: "Full-Stack Development",
-    description: "End-to-end web applications with modern frameworks and scalable architecture.",
+    title: "E-commerce Solutions",
+    description: "Complete online stores with shopping carts, payment integration, and inventory management.",
   },
   {
     icon: Smartphone,
-    title: "Mobile Development",
-    description: "Cross-platform mobile apps with native performance and seamless user experience.",
-  },
-  {
-    icon: Cpu,
-    title: "3D Web Experiences",
-    description: "Interactive 3D visualizations and immersive web experiences using WebGL.",
+    title: "Responsive Design",
+    description: "Mobile-first designs that work perfectly across all devices and screen sizes.",
   },
   {
     icon: Zap,
     title: "Performance Optimization",
-    description: "Speed optimization, code splitting, and performance monitoring for web applications.",
+    description: "Fast-loading websites with optimized code, images, and best practices implementation.",
   },
 ]
 
@@ -40,7 +40,7 @@ export function ServicesSection() {
   return (
     <section id="services" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <SectionHeader title="Tech" highlight="Stack" />
+        <SectionHeader title="Skills &" highlight="Services" />
 
         {/* Tech Stack Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">

@@ -5,13 +5,13 @@ import { Badge } from "@/components/ui/badge"
 import { SectionHeader } from "../ui/section-header"
 
 const stats = [
-  { number: "50+", label: "Projects Completed" },
-  { number: "4+", label: "Years Experience" },
-  { number: "20+", label: "Happy Clients" },
-  { number: "99%", label: "Success Rate" },
+  { number: "15+", label: "Projects Completed" },
+  { number: "2+", label: "Years Experience" },
+  { number: "100%", label: "Client Satisfaction" },
+  { number: "24/7", label: "Support Available" },
 ]
 
-const technologies = ["React", "TypeScript", "Node.js", "Flutter", "Three.js", "AWS"]
+const technologies = ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript", "HTML/CSS"]
 
 export function AboutSection() {
   return (
@@ -28,14 +28,14 @@ export function AboutSection() {
             className="space-y-6"
           >
             <p className="text-lg text-slate-300 leading-relaxed">
-              I'm Abdulkameel Bolatito Amoho, a passionate full-stack developer with over 4 years of experience creating
-              innovative digital solutions. I specialize in building scalable web applications, cross-platform mobile
-              apps, and immersive 3D web experiences.
+              I'm Abdulkameel Bolatito Amoho, a passionate frontend developer with over 2 years of experience creating
+              beautiful and functional web interfaces. I specialize in building responsive websites, e-commerce
+              platforms, and modern web applications that provide exceptional user experiences.
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              My expertise spans modern JavaScript frameworks, cloud technologies, and emerging tech like WebGL and
-              AR/VR. I'm committed to writing clean, efficient code and staying at the forefront of technological
-              innovation.
+              My expertise lies in modern frontend technologies including React, Next.js, and TypeScript. I focus on
+              writing clean, maintainable code and creating pixel-perfect designs that work seamlessly across all
+              devices.
             </p>
 
             <div className="flex flex-wrap gap-3 mt-8">
