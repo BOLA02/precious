@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react"
 import { motion, useInView } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Github, Linkedin, Mail, ArrowRight, ChevronDown, Code } from "lucide-react"
+import { Github, Twitter, Mail, ArrowRight, ChevronDown, Code } from "lucide-react"
 import dynamic from "next/dynamic"
 
 // Dynamically import the 3D scene with no SSR
@@ -21,7 +21,7 @@ const Scene = dynamic(() => import("../3d/scene").then((mod) => ({ default: mod.
 
 const socialLinks = [
   { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Twitter, href: "#", label: "Twitter" },
   { icon: Mail, href: "#contact", label: "Email" },
 ]
 

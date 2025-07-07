@@ -10,37 +10,37 @@ const projects = [
     title: "Modern E-commerce Platform",
     description:
       "A fully responsive online store with shopping cart, product filtering, and secure checkout process. Built with React and integrated payment gateway.",
-    tech: ["React", "Next.js", "Tailwind CSS", "Supabase"],
+    tech: ["React", "Next.js", "Tailwind CSS", "Stripe API"],
     category: "E-commerce",
-    github: "https://github.com/BOLA02/v0-zeenatullah-mini-store.git",
-    live: "https://v0-zeenatullah-mini-store.vercel.app/",
+    github: "#",
+    live: "#",
   },
   {
-    title: "NGO Website ",
+    title: "NGO Website & Donation Portal",
     description:
       "Professional website for a non-profit organization featuring donation system, volunteer registration, and event management capabilities.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "PayPal API"],
     category: "Non-Profit",
-    github: "https://github.com/BOLA02/Nature-Health.git",
-    live: "https://v0-naturehealth-community-initiativ.vercel.app/",
+    github: "#",
+    live: "#",
   },
   {
     title: "Corporate Business Website",
     description:
       "Modern corporate website with service showcase, team profiles, contact forms, and blog section. Optimized for SEO and performance.",
-    tech: ["React", "Next.js", "Tailwind CSS", "Shadcn"],
+    tech: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
     category: "Corporate",
-    github: "https://github.com/BOLA02/Almara-centre.git",
-    live: "https://almara-centre-murex.vercel.app/",
+    github: "#",
+    live: "#",
   },
   {
-    title: "Meet virtual Meeting Software",
+    title: "Restaurant Website & Menu",
     description:
-      "Meet is a responsive virtual meeting platform with real-time video conferencing and live chat, offering a smooth user experience across mobile and desktop devices.",
-    tech: ["React", "Next.js", "Tailwind CSS", "WebSocket"],
-    category: "Software",
-    github: "https://github.com/PelvinDreams/MEETNext.git",
-    live: "Coming Soon",
+      "Elegant restaurant website with online menu, reservation system, and location details. Mobile-optimized for better customer experience.",
+    tech: ["React", "Next.js", "Tailwind CSS", "EmailJS"],
+    category: "Restaurant",
+    github: "#",
+    live: "#",
   },
 ]
 
