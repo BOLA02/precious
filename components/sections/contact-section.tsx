@@ -11,8 +11,8 @@ const contactMethods = [
   {
     icon: Mail,
     label: "Email",
-    value: "preciousuwem@gmail.com",
-    href: "mailto:preciousuwem@gmail.com",
+    value: "preciousuwem3@gmail.com",
+    href: "mailto:preciousuwem3@gmail.com",
   },
   {
     icon: Phone,

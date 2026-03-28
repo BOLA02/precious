@@ -12,7 +12,7 @@ const projects = [
       "Web-based app for Nigerian traders to invest, track market trends, and manage portfolios.",
     tech: ["React", "Next.js", "Tailwind CSS", "Firebase"],
     category: "E-commerce",
-    github: "#",
+    github: "_blank",
     live: "https://astrofx.org/",
   },
   {
@@ -21,7 +21,7 @@ const projects = [
       "Cross-platform delivery management system with real-time tracking and admin panel.",
     tech: ["React Native", "Nodejs", "Express", "Firebase,  API"],
     category: "E-commerce",
-    github: "#",
+    github: "_blank",
     live: "https://astrofx.org/",
   },
   {
@@ -30,17 +30,17 @@ const projects = [
       "Student progress tracker and visual dashboard with notifications and scores.",
     tech: ["React","CSS", "Rest APIs"],
     category: "Corporate",
-    github: "#",
+    github: "_blank",
     live: "https://africanolympiads.com/",
   },
   {
-    title: "Personal Portfolio + Resume Viewer (2020)",
+    title: "DocPulse — Smart Healthcare Documentation & Patient Insights",
     description:
-      "Interactive portfolio site showcasing projects, timeline, and resume export.",
+      "DocPulse is a modern healthcare platform that helps medical professionals streamline patient documentation, manage records efficiently, and gain real-time insights for better clinical decisions.",
     tech: ["HTML", "CSS", "Javascripts"],
-    category: "Restaurant",
-    github: "#",
-    live: "#",
+    category: "HealthTech / Medical Software / SaaS",
+    github: "_blank",
+    live: "https://docpulse.com/",
   },
 ]
 
