@@ -28,7 +28,7 @@ export function AboutSection() {
             className="space-y-6"
           >
             <p className="text-lg text-slate-300 leading-relaxed">
-              I'm Abdulkameel Bolatito Amoho, a passionate frontend developer with over 2 years of experience creating
+              I'm Uwen Precious, a passionate Frontend Developer/Fullstack Software Developer with over 7 years of experience creating
               beautiful and functional web interfaces. I specialize in building responsive websites, e-commerce
               platforms, and modern web applications that provide exceptional user experiences.
             </p>

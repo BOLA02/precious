@@ -11,14 +11,14 @@ const contactMethods = [
   {
     icon: Mail,
     label: "Email",
-    value: "abdulkameel@example.com",
-    href: "mailto:abdulkameel@example.com",
+    value: "preciousuwem@gmail.com",
+    href: "mailto:preciousuwem@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+234 XXX XXX XXXX",
-    href: "tel:+234XXXXXXXXX",
+    value: "+2348168117966",
+    href: "tel:++2348168117966",
   },
   {
     icon: MapPin,
@@ -32,13 +32,13 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    value: "@abdulkameel",
+    value: "@uwenprecious",
     href: "#",
   },
   {
     icon: Twitter,
     label: "Twitter",
-    value: "@abdulkameel",
+    value: "@uwenprecious",
     href: "#",
   },
 ]

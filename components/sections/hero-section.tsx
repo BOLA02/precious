@@ -107,7 +107,7 @@ export function HeroSection() {
             animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1, delay: 1.1, ease: "easeOut" }}
           >
-            Frontend developer passionate about creating beautiful, responsive, and user-friendly web interfaces using
+            Frontend developer/Fullstack Software Developer  passionate about creating beautiful, responsive, and user-friendly web interfaces using
             modern technologies like React, Next.js, and TypeScript.
           </motion.p>
 

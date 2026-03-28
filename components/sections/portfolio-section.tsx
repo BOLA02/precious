@@ -7,37 +7,37 @@ import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
   {
-    title: "Modern E-commerce Platform",
+    title: "Trading & Investment Platform – DibaTech (2024)",
     description:
-      "A fully responsive online store with shopping cart, product filtering, and secure checkout process. Built with React and integrated payment gateway.",
-    tech: ["React", "Next.js", "Tailwind CSS", "Stripe API"],
+      "Web-based app for Nigerian traders to invest, track market trends, and manage portfolios.",
+    tech: ["React", "Next.js", "Tailwind CSS", "Firebase"],
     category: "E-commerce",
     github: "#",
-    live: "#",
+    live: "https://astrofx.org/",
   },
   {
-    title: "NGO Website & Donation Portal",
+    title: "B2B Logistics App – Ideation Asix (2023)",
     description:
-      "Professional website for a non-profit organization featuring donation system, volunteer registration, and event management capabilities.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "PayPal API"],
-    category: "Non-Profit",
+      "Cross-platform delivery management system with real-time tracking and admin panel.",
+    tech: ["React Native", "Nodejs", "Express", "Firebase,  API"],
+    category: "E-commerce",
     github: "#",
-    live: "#",
+    live: "https://astrofx.org/",
   },
   {
-    title: "Corporate Business Website",
+    title: "Learning Dashboard – African Olympiads (2021)",
     description:
-      "Modern corporate website with service showcase, team profiles, contact forms, and blog section. Optimized for SEO and performance.",
-    tech: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+      "Student progress tracker and visual dashboard with notifications and scores.",
+    tech: ["React","CSS", "Rest APIs"],
     category: "Corporate",
     github: "#",
-    live: "#",
+    live: "https://africanolympiads.com/",
   },
   {
-    title: "Restaurant Website & Menu",
+    title: "Personal Portfolio + Resume Viewer (2020)",
     description:
-      "Elegant restaurant website with online menu, reservation system, and location details. Mobile-optimized for better customer experience.",
-    tech: ["React", "Next.js", "Tailwind CSS", "EmailJS"],
+      "Interactive portfolio site showcasing projects, timeline, and resume export.",
+    tech: ["HTML", "CSS", "Javascripts"],
     category: "Restaurant",
     github: "#",
     live: "#",
