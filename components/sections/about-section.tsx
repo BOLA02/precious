@@ -6,12 +6,12 @@ import { SectionHeader } from "../ui/section-header"
 
 const stats = [
   { number: "15+", label: "Projects Completed" },
-  { number: "2+", label: "Years Experience" },
+  { number: "7+", label: "Years Experience" },
   { number: "100%", label: "Client Satisfaction" },
   { number: "24/7", label: "Support Available" },
 ]
 
-const technologies = ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript", "HTML/CSS"]
+const technologies = ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"]
 
 export function AboutSection() {
   return (
@@ -28,14 +28,17 @@ export function AboutSection() {
             className="space-y-6"
           >
             <p className="text-lg text-slate-300 leading-relaxed">
-              I'm Uwen Precious, a passionate Frontend Developer/Fullstack Software Developer with over 7 years of experience creating
-              beautiful and functional web interfaces. I specialize in building responsive websites, e-commerce
-              platforms, and modern web applications that provide exceptional user experiences.
+              I'm Uwen Precious, Highly skilled and adaptable Frontend / Fullstack Software Developer with 7 years of professional experience
+                building fast, scalable, and responsive web and mobile applications. Specialized in React, Next.js, React
+                Native, Node.js, and TypeScript, with a proven track record of solving complex frontend and backend
+                challenges using modern cloud-first technologies. 
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              My expertise lies in modern frontend technologies including React, Next.js, and TypeScript. I focus on
-              writing clean, maintainable code and creating pixel-perfect designs that work seamlessly across all
-              devices.
+              Currently working with DibaTech Limited as a Software
+                Developer Intern, where I contribute to high-impact financial platforms, leveraging modern stacks to deliver
+                intuitive user experiences. Previously worked with cross-border teams in Ghana and Nigeria, delivering
+                solutions across fintech, logistics, education, and mobile systems. Strong in system architecture, clean UI
+                implementation, and cloud-integrated development.
             </p>
 
             <div className="flex flex-wrap gap-3 mt-8">
