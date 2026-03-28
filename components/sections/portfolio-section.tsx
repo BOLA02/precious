@@ -16,13 +16,13 @@ const projects = [
     live: "https://astrofx.org/",
   },
   {
-    title: "B2B Logistics App – Ideation Asix (2023)",
+    title: "Ideation Asix (2023)",
     description:
       "Cross-platform delivery management system with real-time tracking and admin panel.",
     tech: ["React Native", "Nodejs", "Express", "Firebase,  API"],
     category: "E-commerce",
     github: "_blank",
-    live: "https://astrofx.org/",
+    live: "https://ideationaxis.com/",
   },
   {
     title: "Learning Dashboard – African Olympiads (2021)",
