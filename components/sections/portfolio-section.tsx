@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Ideation Asix (2023)",
     description:
-      "Cross-platform delivery management system with real-time tracking and admin panel.",
+      "Cross platform To empower African founders to transform bold ideas into world-class ventures that solve real problems, drive profitability, and scale globally - positioning Africa as the world's most dynamic and profitable hub for startup execution.",
     tech: ["React Native", "Nodejs", "Express", "Firebase,  API"],
     category: "E-commerce",
     github: "_blank",
