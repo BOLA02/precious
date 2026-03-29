@@ -11,7 +11,7 @@ const stats = [
   { number: "24/7", label: "Support Available" },
 ]
 
-const technologies = ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"]
+const technologies = ["React", "Next.js", "Nodejs", " mongodb", "JavaScript", "postgresql", "PHP", "expo", "NET", "GIT", "MySQL"]
 
 export function AboutSection() {
   return (
@@ -28,7 +28,7 @@ export function AboutSection() {
             className="space-y-6"
           >
             <p className="text-lg text-slate-300 leading-relaxed">
-              I'm Uwen Precious, Highly skilled and adaptable Frontend / Fullstack Software Developer with 7 years of professional experience
+              I'm Uwem Precious, Highly skilled and adaptable Frontend / Fullstack Software Developer with 7 years of professional experience
                 building fast, scalable, and responsive web and mobile applications. Specialized in React, Next.js, React
                 Native, Node.js, and TypeScript, with a proven track record of solving complex frontend and backend
                 challenges using modern cloud-first technologies. 

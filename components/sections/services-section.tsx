@@ -1,17 +1,81 @@
 "use client"
-import { Code2, Smartphone, Globe, Zap, Palette, Monitor } from "lucide-react"
+import { Code2, Smartphone, Globe, Zap, Palette, Monitor, Database,
+  Server,
+  GitBranch } from "lucide-react"
 import { SectionHeader } from "../ui/section-header"
 import { TechStackCard } from "../ui/tech-stack-card"
 import { ServiceCard } from "../ui/service-card"
 
+
+
 const techStack = [
-  { name: "React", icon: Code2, level: 90, description: "Component-based UI development" },
-  { name: "Next.js", icon: Globe, level: 85, description: "Full-stack React framework" },
-  { name: "TypeScript", icon: Code2, level: 80, description: "Type-safe JavaScript" },
-  { name: "Tailwind CSS", icon: Palette, level: 95, description: "Utility-first CSS framework" },
-  { name: "JavaScript", icon: Code2, level: 88, description: "Modern ES6+ development" },
-  { name: "Responsive Design", icon: Monitor, level: 92, description: "Mobile-first approach" },
-]
+  {
+    name: "React",
+    icon: Code2,
+    level: 90,
+    description: "Component-based UI development for modern web apps",
+  },
+  {
+    name: "Next.js",
+    icon: Globe,
+    level: 88,
+    description: "Full-stack React framework with SSR & App Router",
+  },
+  {
+    name: "JavaScript",
+    icon: Code2,
+    level: 90,
+    description: "Core language for web development (ES6+)",
+  },
+  {
+    name: "Node.js",
+    icon: Server,
+    level: 85,
+    description: "Backend runtime for building scalable APIs",
+  },
+  {
+    name: "PHP",
+    icon: Server,
+    level: 80,
+    description: "Server-side scripting for web applications",
+  },
+  {
+    name: "MySQL",
+    icon: Database,
+    level: 85,
+    description: "Relational database management system",
+  },
+  {
+    name: "MongoDB",
+    icon: Database,
+    level: 82,
+    description: "NoSQL database for flexible document storage",
+  },
+  {
+    name: "PostgreSQL",
+    icon: Database,
+    level: 88,
+    description: "Advanced relational database with strong consistency",
+  },
+  {
+    name: "Expo",
+    icon: Smartphone,
+    level: 80,
+    description: "React Native toolchain for building mobile apps",
+  },
+  {
+    name: ".NET",
+    icon: Server,
+    level: 75,
+    description: "Framework for building enterprise applications (C#)",
+  },
+  {
+    name: "Git",
+    icon: GitBranch,
+    level: 90,
+    description: "Version control and collaboration tool",
+  },
+];
 
 const services = [
   {

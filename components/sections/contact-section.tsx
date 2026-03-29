@@ -32,13 +32,13 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    value: "@uwenprecious",
+    value: "@uwemprecious",
     href: "#",
   },
   {
     icon: Twitter,
     label: "Twitter",
-    value: "@uwenprecious",
+    value: "@uwemprecious",
     href: "#",
   },
 ]
